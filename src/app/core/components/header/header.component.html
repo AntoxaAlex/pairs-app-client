@@ -1,0 +1,11 @@
+<nav mat-tab-nav-bar [tabPanel]="tabPanel">
+  <a
+    mat-tab-link
+    *ngFor="let contractAddress of contractAddresses; index as i"
+    (click)="navigateTo(contractAddress)"
+    [active]="activeLink == i"
+  >
+    {{ "Pair " + i }}
+  </a>
+</nav>
+<mat-tab-nav-panel #tabPanel></mat-tab-nav-panel>

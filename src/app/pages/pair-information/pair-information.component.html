@@ -1,0 +1,5 @@
+<app-chart
+  *ngIf="pairData$ | async as pairData"
+  [pairData]="pairData"
+></app-chart>
+<app-error *ngIf="error" [message]="error.message"></app-error>
