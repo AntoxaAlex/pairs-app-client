@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Code running
 
-Run `npm install` and then `ng serve` or `npm run start` to run the application. Application will be running on lovalhost:4200 in browser. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `npm install` and then `ng serve` or `npm run start` to run the application. Application will be running on localhost:4200 in browser. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Answers
 1. I didn't have any problem with API endpoint, but, on my opinion, response could be more complete(f.e. some extra data about trends and other important market indicators).
